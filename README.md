@@ -1,4 +1,8 @@
 # EShopMicroservices
 ## Catalog.API 
 - vertical slice architecture
- * marten postgres to create document DB
+- Logical CQRS
+- Libraries:
+- * MediatR to apply CQRS
+- * Carter building modular minimal APIs
+  *  marten postgres to create document DB
