@@ -9,6 +9,7 @@ builder.Services.AddMediatR(config =>
 });
 var app = builder.Build();
 
+app.MapGet("/", () => "Catalog API is up and running");
 app.MapCarter();
 
 app.Run();
